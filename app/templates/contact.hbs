@@ -1,0 +1,6 @@
+<h1>Our Offices</h1>
+<hr>
+
+   {{#each @model as |data|}}
+         <AddressBox @address={{data}} />
+    {{/each}}
