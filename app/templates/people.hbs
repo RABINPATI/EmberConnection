@@ -1,0 +1,23 @@
+    <h4 style="color: blue; text-align: center;"> Key People</h4>
+<hr>
+<div class="alert alert-dark">
+    <form>
+  <div class="form-row">
+    <div class="col">
+      <Input type="text" class="form-control" id="email" placeholder="Enter Name" @value={{this.name}}/>
+    </div>
+    <div class="col">
+      <Input type="text" class="form-control" placeholder="Enter Position"  @value={{this.position}} />
+    </div>
+      <div class="col">
+      <Input type="text" class="form-control" placeholder="Enter Pic file name" @value={{this.pic}} />
+    </div>
+      <div class="col">
+      <button {{on "click" this.performPost}} class="btn btn-dark">Add Key Person</button>
+    </div>
+  </div>
+</form>
+</div>
+ {{#each @model as |data|}}
+         <PersonBox @persondata={{data}} />
+ {{/each}}

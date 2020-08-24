@@ -1,0 +1,7 @@
+<div>
+    <h4 style="color: blue; text-align: center;"> Facilities</h4>
+<hr>
+     {{#each @model as |dataitem|}}
+         <DataBox @boxdata={{dataitem}} />
+     {{/each}}
+</div>

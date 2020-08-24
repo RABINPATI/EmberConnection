@@ -1,0 +1,14 @@
+{
+    "data": [
+    {"type": "hotels", 
+      "id":1, 
+      "attributes" : {"title": "Resturants" , "itemlist": ["Veg Res","Excelent","Omni"]}},
+      {"type": "hotels", 
+        "id":2, 
+      "attributes" : {"title": "Hotel", "itemlist" : ["Oberi Hotel","Marine","Grand"]}},
+      {
+      "type": "hotels", 
+      "id":3, 
+      "attributes" :{"title": "Transport", "itemlist" :["Car","Bus","Train"]}}
+   ]
+  }
